@@ -1,0 +1,88 @@
+/*
+body {
+    background-color: blue;
+}
+
+Isso é um comentário em css
+*/
+/*
+Anatomia
+-Declaration
+-selector
+- {} context
+-Properties
+-Property value
+*/
+#header1 {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+
+/* 
+Hierarquia de seletores
+*/
+p {
+    color: green;
+    font-size: 20px;
+}
+
+p {
+    color: black;
+}
+/* Vai sobrescrever o anterior, o ultimo é o que importa */
+/*
+Especificidade
+- cada seletor tem um peso
+- soma dos pesos faz a declaração ser aplicada
+- #Id = 100
+- .Class = 10
+- Element = 1
+- ID > Class > Element
+*/
+p {
+    color: green;
+    font-size: 20px;
+}
+#pzin {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+.pzin {
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+p, #pzin, .pzin {
+    color: yellow;
+    font-size: 20px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+} /* Esse possui mais peso que os anteriores */
+
+/*
+Mais especificidade
+- style
+- !important
+*/
+#pzin {
+    color: cyan !important;
+} /* evitar o uso de !important por causa de esquecimento */
+
+/*
+Valores e unidades de medidas
+
+cada propriedade possui valores
+property: value;
+*/
+
+h1 {
+    color: black; /* color */
+    font-size: 32px; /* length */
+    letter-spacing: 2; /* number */
+    text-transform: uppercase; /* ? */
+}

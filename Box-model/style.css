@@ -1,0 +1,35 @@
+body {
+    background-color: #06080C;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.texto{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Estilo da caixa */
+.caixa-html {
+    border: 5px solid coral;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    background-color: lightblue;
+    outline: 5px solid yellow;
+}
+
+/* Definindo um exemplo de conteúdo com outra cor */
+.caixa-html::before {
+    content: "Conteúdo da caixa";
+    display: block;
+    padding: 10px;
+    background-color: lightgreen;
+}

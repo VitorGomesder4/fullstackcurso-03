@@ -13,6 +13,7 @@ Anatomia
 -Properties
 -Property value
 */
+
 #header1 {
     color: red;
     font-size: 20px;
@@ -89,8 +90,32 @@ h1 {
 /*
 Seletores
 - type | element | tag
-- class
-- id
-- universal
-- attribute
+- class '.class'
+- id '#id'
+- universal '*' All elements
+- attribute '[attr]'
 */
+
+/*
+Combinator
+- descendant ' '
+- list ','
+- next-sibling '+'
+- child '>'
+
+*/
+.article p {
+    color: red;
+} /* p dentro de article */
+
+.article, .aside {
+    margin-top: 50px;
+} /* article e aside */
+
+p + p {
+    color: blue;
+} /* p que é irmão de p */
+
+.aside ul > ul {
+    color: red;
+} /* ul dentro de ul dentro de aside */

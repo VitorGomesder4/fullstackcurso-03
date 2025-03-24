@@ -1,0 +1,5 @@
+.margin {
+    border: solid 1px black;
+    margin: /*Eixo vertical->*/30px /*Eixo horizontal->*/10px;
+    /* margin collapsing */
+}

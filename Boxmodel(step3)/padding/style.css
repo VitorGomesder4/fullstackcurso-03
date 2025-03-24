@@ -5,6 +5,7 @@ div, span {
 }
 
 .padding {
+    box-sizing: border-box;
     padding: 10px;
     margin: 20px;
 }

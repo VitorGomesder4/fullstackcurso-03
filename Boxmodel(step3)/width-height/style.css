@@ -1,0 +1,17 @@
+div, span {
+    width: 500px;
+    min-width: 100px;
+    max-width: 300px;
+}/* width ira ser 300px, pois o maximo foi estabelecido em 300px */
+
+div {
+    color: tomato;
+}
+
+span {
+    color: yellow;
+}
+
+body {
+    background-color: black;
+}

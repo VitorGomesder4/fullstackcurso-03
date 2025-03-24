@@ -1,0 +1,9 @@
+/*
+border
+*/
+.border {
+    border-color: rgb(255, 120, 255) blue coral darkgreen;
+    border-width: 1px 2px 3px 4px;
+    border-style: dashed double solid dotted;
+    /* ordem que afeta: top right bottom left */
+} 

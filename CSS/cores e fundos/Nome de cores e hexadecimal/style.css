@@ -1,0 +1,11 @@
+/*RGB Hexadecimal (0 - F)
+#f09 - RGB
+#ff0099 - RRGGBB
+#f09a - RGBA       A = Alpha, sera a transparencia
+#ff0099cc - RRGGBBAA
+*/
+
+p {
+    /*color: royalblue;*/
+    color: #000
+}

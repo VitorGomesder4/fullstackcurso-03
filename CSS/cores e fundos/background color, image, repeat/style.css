@@ -1,0 +1,11 @@
+body {
+    /*background-color: aquamarine;*/
+    background-image: url("https://app.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat-logo.svg&w=640&q=75");
+    background-repeat: inherit;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}

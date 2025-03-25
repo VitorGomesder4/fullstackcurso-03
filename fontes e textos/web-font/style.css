@@ -1,0 +1,12 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');*/
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bytesized-regular {
+    font-family: "Bytesized", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,13 @@
+p{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+
+mark {
+    color: rebeccapurple;
+}
+
+a {
+    text-decoration: underline dashed;
+}
